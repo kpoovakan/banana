@@ -1,6 +1,27 @@
 :root {
-    --colorBackground: ;
-    --colorForeground: ;
-    --colorAccent: ;
+    --black: #000002;
+    --grey: #c8c8be;
+    --yellow: #ffe270;
+    --darkblue: #065e8c;
+    --lightblue: #dfecf2;
     --font: ;
+}
+@font-face {
+    font-family: "Fruit Days";
+    src: url("fruitdays.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body > * {
+    margin: 0;
+    padding: 0;
+    font-family: "Fruit Days";
+}
+body {
+    background-color: var(--black);
+    color: var(--yellow);
+    padding: 3vw;
+    margin: 0;
+    width: 100vw;
+    box-sizing: border-box;
 }
