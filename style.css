@@ -49,6 +49,8 @@ summary {
 details {
     border: 1px solid var(--yellow);
     border-radius: 3px;
+    animation-timeline: view() play-forwards play-backwards;
+    animation: dropdowns 0.314s ease-in-out;
 }
 
 @keyframes banana {
@@ -69,5 +71,13 @@ details {
     }
     100% {
         transform: scale3d(1, 1, 1);
+    }
+}
+@keyframes dropdowns {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0);
     }
 }
