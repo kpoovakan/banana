@@ -16,12 +16,21 @@ body > * {
     margin: 0;
     padding: 0;
     font-family: "Fruit Days";
+    box-sizing: border-box;
 }
 body {
     background-color: var(--black);
     color: var(--yellow);
-    padding: 3vw;
+    padding: 0;
     margin: 0;
     width: 100vw;
+    box-sizing: border-box;
+}
+
+.advertisement {
+    width: 100%;
+    background-color: var(--lightblue);
+    padding: 3vw;
+    padding-top: 0;
     box-sizing: border-box;
 }
