@@ -26,6 +26,7 @@ body {
     margin: 0;
     width: 100vw;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .advertisement {
@@ -35,6 +36,19 @@ body {
     padding-top: 0;
     box-sizing: border-box;
 }
+.bananasAnimation {
+    position: fixed;
+    pointer-events: none;
+    display: block;
+    animation:
+        bananasFall 2.2s ease-in,
+        bananasRotate 1s linear paused;
+    animation-fill-mode: forwards;
+}
+.bananasAnimation:nth-child(1) { animation-delay: -0.2s; }
+.bananasAnimation:nth-child(2) { animation-delay: -0.4s; }
+.bananasAnimation:nth-child(3) { animation-delay: -0.6s; }
+.bananasAnimation:nth-child(4) { animation-delay: -0.8s; }
 
 h1 {
     font-size: 13cqw;
@@ -53,6 +67,42 @@ details {
     animation: dropdowns 0.314s ease-in-out;
 }
 
+@keyframes bananasFall {
+    0% {
+        top: -31vh;
+        display: block;
+    }
+    99% {
+        top: 171vh;
+        display: block;
+    }
+    100% {
+        display: none;
+        top: 171vh;
+    }
+}
+@keyframes bananasRotate {
+    0% {
+        transform: rotate(15deg)
+        translateX(0vw);
+    }
+    25% {
+        transform: rotate(-45deg)
+        translateX(25vw);
+    }
+    50% {
+        transform: rotate(110deg)
+        translateX(50vw);
+    }
+    75% {
+        transform: rotate(-75deg)
+        translateX(75vw);
+    }
+    100% {
+        transform: rotate(240deg)
+        translateX(100vw);
+    }
+}
 @keyframes banana {
     0% {
         transform: scale3d(1, 1, 1);
