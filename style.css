@@ -55,6 +55,7 @@ body {
     flex: 1;
     white-space: nowrap;
     text-wrap: nowrap;
+    user-select: none;
 }
 .fiftyMillionBananas:hover {
     cursor: pointer;
@@ -177,7 +178,26 @@ details {
         transform: translateX(0);
     }
 }
+@keyframes radiation {
+    0% {
+        left: -100vh;
+        transform: rotate(0deg);
+        display: block;
+    }
+    99% {
+        left: 200vh;
+        transform: rotate(360deg);
+        display: block;
+    }
+    100% {
+        left: 200vh;
+        transform: rotate(360deg);
+        display: none;
+    }
+}
 
 #yes:checked ~ .radioactive {
     display: block;
+    animation: radiation 3.14s linear;
+    animation-fill-mode: forwards;
 }
