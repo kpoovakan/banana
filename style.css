@@ -84,6 +84,9 @@ body {
     border: 13px solid var(--black);
     border-radius: 3px;
 }
+.advertisement:hover {
+    animation-play-state: paused !important;
+}
 .radioactive {
     display: none;
     position: fixed;
