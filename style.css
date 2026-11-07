@@ -132,6 +132,14 @@ details {
     animation-timeline: view() play-forwards play-backwards;
     animation: dropdowns 0.314s ease-in-out;
 }
+a:link, a:visited {
+    color: var(--lightblue);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 @keyframes bananasFall {
     0% {
@@ -216,7 +224,7 @@ details {
 }
 @keyframes advertisement {
     from {
-        left: -70vh; /* the width is 8 fraction and the height is 11 fraction */
+        left: -31.4vh; /* the width is 8 fraction and the height is 11 fraction */
     }
     to {
         left: calc(100vw + 70vh);
