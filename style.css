@@ -60,14 +60,29 @@ body {
 .fiftyMillionBananas:hover {
     cursor: pointer;
     background-color: var(--yellow);
-    color: var(--black);;
+    color: var(--black);
+    a:link, a:visited, a:hover {
+        color: var(--black);
+    }
+}
+.fiftyMillionBananas a:link, a:visited {
+    color: var(--yellow);
+    text-decoration: none;
 }
 .advertisement {
-    width: 100%;
+    flex-basis: 100%;
     background-color: var(--lightblue);
     padding: 3vw;
     padding-top: 0;
     box-sizing: border-box;
+    display: none;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 13px solid var(--black);
+    border-radius: 3px;
 }
 .radioactive {
     display: none;
@@ -201,4 +216,7 @@ details {
     display: block;
     animation: radiation 3.14s linear;
     animation-fill-mode: forwards;
+}
+#no:checked ~ .advertisement {
+    display: block;
 }
