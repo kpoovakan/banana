@@ -44,6 +44,7 @@ body {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+    display: none;
 }
 .fiftyMillionBananas {
     border: 3px solid var(--yellow);
@@ -68,9 +69,12 @@ body {
     box-sizing: border-box;
 }
 .radioactive {
-    position: fixed;
-    pointer-events: none;
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    opacity: 0.71;
 }
 .bananasAnimation {
     position: fixed;
@@ -172,4 +176,8 @@ details {
     to {
         transform: translateX(0);
     }
+}
+
+#yes:checked ~ .radioactive {
+    display: block;
 }
