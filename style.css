@@ -36,6 +36,11 @@ body {
     padding-top: 0;
     box-sizing: border-box;
 }
+.radioactive {
+    position: fixed;
+    pointer-events: none;
+    display: none;
+}
 .bananasAnimation {
     position: fixed;
     pointer-events: none;
