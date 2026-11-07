@@ -29,6 +29,37 @@ body {
     overflow-x: hidden;
 }
 
+.fiftyMillionBananasWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+.fiftyMillionBananasCheck {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.fiftyMillionBananas {
+    border: 3px solid var(--yellow);
+    padding: 13px;
+    border-radius: 3px;
+    display: block;
+    text-align: right;
+    flex: 1;
+    white-space: nowrap;
+    text-wrap: nowrap;
+}
+.fiftyMillionBananas:hover {
+    cursor: pointer;
+    background-color: var(--yellow);
+    color: var(--black);;
+}
 .advertisement {
     width: 100%;
     background-color: var(--lightblue);
