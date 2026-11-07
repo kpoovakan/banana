@@ -61,12 +61,18 @@ h1 {
     animation: banana 1s both;
     animation-timeline: view() play-forwards play-backwards;
 }
+h2 {
+    font-size: max(3cqw, 31px);
+    text-align: right;
+}
 summary {
     padding: 13px;
-    border-bottom: 1px dashed var(--yellow);
+    border-bottom: 3px dashed var(--yellow);
+    text-align: right;
+    font-size: max(3cqw, 31px);
 }
 details {
-    border: 1px solid var(--yellow);
+    border: 3px solid var(--yellow);
     border-radius: 3px;
     animation-timeline: view() play-forwards play-backwards;
     animation: dropdowns 0.314s ease-in-out;
