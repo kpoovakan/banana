@@ -11,6 +11,9 @@ Most potassium atoms are a stable form known as potassium-39, containing 19 prot
 ### explanation of isotopes from https://www.unitsconverters.com/en/Sievert-To-Microsievert/Unittounit-4006-4008
 A family of people often consists of related but not identical individuals. Elements have families as well, known as isotopes. Isotopes are members of a family of an element that all have the same number of protons but different numbers of neutrons.
 
+### stuff about radioisotopes
+https://www.ansto.gov.au/education/nuclear-facts/what-are-radioisotopes#radioisotope
+
 ### random thoughts
 If a hooman eats a banana, then the potassium enters that hooman, then doesn't that make the hooman slightly radioactive-?
 
