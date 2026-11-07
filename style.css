@@ -211,6 +211,14 @@ details {
         display: none;
     }
 }
+@keyframes advertisement {
+    from {
+        left: -70vh; /* the width is 8 fraction and the height is 11 fraction */
+    }
+    to {
+        left: calc(100vw + 70vh);
+    }
+}
 
 #yes:checked ~ .radioactive {
     display: block;
@@ -219,4 +227,6 @@ details {
 }
 #no:checked ~ .advertisement {
     display: block;
+    animation: advertisement 13s linear;
+    animation-fill-mode: forwards;
 }
