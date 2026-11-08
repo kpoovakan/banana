@@ -20,10 +20,11 @@ Clone this repository:
 Then, open index.html
 
 ### Credits And Licensing
-This project was...
-* Built by [kpoovakan](https://kpoovakan.github.io)
-* Built on [VSCode](https://code.visualstudio.com)
-* Assets drawn on [Turbowarp](https://turbowarp.org/editor)
+This project...
+* Was built by [kpoovakan](https://kpoovakan.github.io)
+* Was built on [VSCode](https://code.visualstudio.com)
+* Uses assets drawn on [Turbowarp](https://turbowarp.org/editor) by [kpoovakan](https://kpoovakan.github.io)
+* Uses the [Fruit Days font](https://www.dafont.com/fruit-days.font) by [Khurasan](https://khurasanstudio.com/)
 
 This project is...
 * Licensed under the [PolyForm Strict License 1.0.0](https://github.com/kpoovakan/banana?tab=License-1-ov-file#polyform-strict-license-100)
