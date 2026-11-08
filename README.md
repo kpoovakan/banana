@@ -3,7 +3,7 @@ A quickstart guide to obtaining radiation resources, free of charge.
 <img src="thumbnail.gif" alt="decorative banana animation" />
 
 ### Try It
-Open [Banana](https://kpoovakan.github.io/banana) in your browser. Requires internet connection.
+Open [Banana](https://kpoovakan.github.io/banana) in your browser. Requires an internet connection.
 
 ### What Is This??
 This is a quickstart guide to obtaining radiation resources, free of charge! As in, the quickstart guide is free. The radiation resource isn't.
@@ -41,3 +41,6 @@ This project was created with help from the following sources...
 * [Nuclear Regulatory Commision](https://www.nrc.gov/education-regulatory-research/glossary/lethal-dose-ld)
 * [United States Department of Energy](https://www.energy.gov/ne/articles/5-radioactive-products-we-use-every-day)
 * [Units Converters](https://www.unitsconverters.com/en/Sievert-To-Microsievert/Unittounit-4006-4008)
+
+### Interesting Bug
+The "buttons" on this project were created with CSS and HTML, no JavaScript. Because of this, after the first time a "button" is pressed, the "button" will have to be double-clicked to replay the interactive animation.
